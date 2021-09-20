@@ -1,0 +1,11 @@
+.root {
+  font-family: 'Roboto', 'Arial', 'Sans-Seriff';
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,14 @@
+.paymant__button-submit_disable {
+  width: 100%;
+  height: 42px;
+  margin: 33px 0 50px;
+  background: #9f9f9f;
+  color: #fff;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  border-radius: 6px;
+  transition: all 0.2s ease-out;
+  border: none;
+  pointer-events: none;
+}

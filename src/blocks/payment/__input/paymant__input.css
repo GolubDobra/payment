@@ -1,0 +1,9 @@
+.paymant__input {
+  /* margin: 0 0 17px; */
+  width: 100%;
+  height: 47px;
+  border: none;
+  border-bottom: 1px solid #3592ff;
+  background-color: transparent;
+  color: #535353;
+}

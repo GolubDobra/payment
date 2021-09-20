@@ -1,13 +1,19 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url(./vendors/normalize.css);
+@import url(./font/inter.css);
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+@import url(./blocks/root/root.css);
+
+@import url(./blocks/payment/payment.css);
+@import url(./blocks/payment/__form/payment__form.css);
+@import url(./blocks/payment/__title/payment__title.css);
+@import url(./blocks/payment/__lable/payment__lable.css);
+@import url(./blocks/payment/__input/paymant__input.css);
+@import url(./blocks/payment/__button-submit/paymant__button-submit.css);
+@import url(./blocks/payment/__button-submit/_disable/paymant__button-submit_disable.css);
+@import url(./blocks/payment/__input-lable/payment__input-lable.css);
+
+@import url(./blocks/inline-input/inline-input.css);
+@import url(./blocks/inline-input/__date/inline-input__date.css);
+@import url(./blocks/inline-input/__code/inline-input__code.css);
+
+@import url(./blocks/input/input.css);
